@@ -1,8 +1,9 @@
 import './App.css';
+import GhibliContainer from './Containers/GhibliContainer';
 
 function App() {
   return (
-    <h1>hello</h1>
+    <GhibliContainer/>
   );
 }
 
