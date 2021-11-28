@@ -10,7 +10,6 @@
 .main-film-container{
     padding: 20px 40px 40px;
     max-width: 100%;
-  
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
@@ -22,3 +21,11 @@
     @media (max-width: 620px) {
     width: 100%;
 }}
+.home-page{
+    color: rgb(211, 211, 248);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #43c6de;
+}
