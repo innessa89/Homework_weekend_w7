@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react";
 import { useMatch } from "react-router-dom";
+import './FilmContainer.css';
 
 const FilmContainer=()=>{
     const[film,setFilm]=useState(null);
@@ -20,8 +21,21 @@ const FilmContainer=()=>{
         <>
         {film &&
             <>
-                <h1>{film.title}</h1>
-                <h2>{film.description}</h2>
+            <div className="main-film-container"> 
+                <img className="image" src={film.movie_banner} alt={film.title}/>
+                <div className="description">
+                    <h1><b>Title:</b> {film.title}</h1>
+                    <hr/>
+                    <br/>
+                    <p><b>Description:</b> {film.description}</p>
+                    <br/>
+                    <p><b>Director:</b>{film.director}</p>
+                    <br/>
+                    <p><b>Producer:</b> {film.producer}</p>
+                    <br/>
+                    <p><b>Release Date:</b> {film.release_date}</p>
+                </div> 
+            </div>       
             </>
         }
 

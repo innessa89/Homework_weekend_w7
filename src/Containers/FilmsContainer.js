@@ -17,7 +17,7 @@ const FilmContainer=()=>{
     
     return(
         <>
-        <div className="main-container">
+        <div className="main-films-container">   
             <h1>Studio Ghibli Filmography</h1>
             <FilmList films={films}/>
         </div>

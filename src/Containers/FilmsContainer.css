@@ -1,0 +1,10 @@
+.main-films-container{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    background-color: rgba(56, 82, 123, 0.9);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF
+}
+

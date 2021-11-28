@@ -4,13 +4,13 @@ import'./FilmList.css'
 
 const FilmList=({films})=>{
     return(
-        <div className="image-continer">
-        <ul className="image-list">
+       
+        <ul className="film-image-list">
             {films.map(film=>{
-                return <div className="film-item"> <li key={film.id}> <Film film={film}/></li></div>
+                return  <li key={film.id}> <Film film={film}/></li>
                 })}
         </ul>
-        </div>
+     
     )
 }
 
